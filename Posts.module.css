@@ -1,0 +1,15 @@
+.container{
+    background-color: #212121;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.container h2{
+    color: #aa22aa;
+    font-size: 1rem;
+}
+
+.container p{
+    color: #d7a4d7;
+}

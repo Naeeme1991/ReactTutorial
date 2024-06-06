@@ -1,0 +1,48 @@
+.InputAxiosContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.InputAxiosContainer form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.InputAxiosContainer form input{
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    background-color: #8c8cec;
+    border-radius: 5px;
+    color: #040477;
+}
+::placeholder {
+    color: #fff;
+}
+::-ms-input-placeholder{
+    color: #fff;
+}
+
+.InputAxiosContainer form button{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    font-weight: bold;
+    color: #454545;
+}
+
+.InputAxiosContainer form  span{
+    color: #aaaaaa;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
